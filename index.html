@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plasticos y cintas de Colombia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"  crossorigin="anonymous">    
+    </script>
+
+</head>
+<body>
+
+  
+
+
+    <nav class="navbarS" id="inicio">
+            <div class="logo">
+                <!-- <h1>LOGO</h1> -->
+                <img id="logoIMG" src="imagenes/logo-azul.png" alt="">
+            </div>
+
+            <ul id="menuList">
+              <li><a href="#" data-target="seccioncatalogo">Productos</a></li>
+              <li><a href="#" data-target="seccioncontacto">Contacto</a></li>
+              <li><a href="#" data-target="MyV">Valores</a></li>
+            </ul>
+
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+
+        </nav>
+
+    
+        <div id="carouselExampleIndicators" class="carousel slide carousel-dark slide" data-bs-ride="carousel" data-bs-touch="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+              <div class="carousel-item active" data-bs-interval="9999">
+                <img id="imagen-carousel-1" src="imagenes/Car-item-4.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="9999">
+                <img src="imagenes/car-item-2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="9999">
+                <img src="imagenes/Car-item-3.png" class="d-block w-100" alt="...">
+              </div>
+
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+    <div class="cuerpo">
+
+        <div class="catalogo" id="seccioncatalogo">
+            <div class="row align-items-start">
+                <div class="col-md-12 col-12">
+                    <img src="imagenes/catalogoProd.png" alt="Catálogo">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cards">
+                <!-- Cards -->
+                <div class="row align-items-start">
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header" onclick="toggleCardContent(this)">
+                                <img src="imagenes/Linea-empaque-embalaje.png" alt="">
+                                <span class="toggle-icon">+</span>
+                            </div>
+                        
+                        
+                            <div class="card-content">
+                                <!-- Carousel -->
+                                <div id="carousel-linea-empaque-embalaje" class="carousel slide carousel-dark slide" data-bs-ride="carousel" data-bs-touch="true">
+                        
+                        
+                                    
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                                      <button type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide-to="14" aria-label="Slide 15"></button>
+                                    </div>
+                        
+                        
+                        
+                                    <div class="carousel-inner">
+                        
+                                      <div class="carousel-item active" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-carton-corrugado.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+                        
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-trenzado-driza.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+                        
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-zuncho-metalico.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-pelicula-strech.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+
+                                      <div class="carousel-item" data-bs-interval="999999">
+                                        <img src="imagenes/Desc-cinta-embalaje.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-cinta-enmascarar.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-frio-film.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-soga-manila.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-papel-kraft.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-zuncho-plastico.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+
+                                      
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-zuncho-pet.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-grapa-plastica.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-grapa-metalica.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-saco-pp.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+
+                                      <div class="carousel-item" data-bs-interval="9999">
+                                        <img src="imagenes/Desc-hilo-cañamo.png" class="d-block w-100 product-img" alt="...">
+                                      </div>
+                        
+                        
+                                    </div>
+                                    
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-linea-empaque-embalaje" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                                <!-- carousel -->
+                            </div>
+                        
+                        
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header" onclick="toggleCardContent(this)">
+                                <img src="imagenes/herramientas.png" alt="">
+                                <span class="toggle-icon">+</span>
+                            </div>
+                        
+                        
+                            <div class="card-content">
+
+                              <!-- Carousel -->
+                              <div id="carousel-herramientas" class="carousel slide carousel-dark slide" data-bs-ride="carousel" data-bs-touch="true">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carousel-herramientas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carousel-herramientas" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carousel-herramientas" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                    
+                                  <div class="carousel-item active" data-bs-interval="9999">
+                                    <img src="imagenes/Herr-dispensador-cinta.png" class="d-block w-100 product-img" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="9999">
+                                    <img src="imagenes/Herr-zunchadora.png" class="d-block w-100 product-img" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="9999">
+                                    <img src="imagenes/Herr-tenzaza.png" class="d-block w-100 product-img" alt="...">
+                                  </div>
+                    
+                                </div>
+                                
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-herramientas" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-herramientas" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                              <!-- Carousel -->
+                              
+                            </div>
+                        
+                        
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header" onclick="toggleCardContent(this)">
+                                <img src="imagenes/linea-agro-construccion.png" alt="">
+                                <span class="toggle-icon">+</span>
+                            </div>
+                        
+                        
+                            <div class="card-content">
+                              <!-- carousel -->
+                              <div id="carousel-agro" class="carousel slide carousel-dark slide" data-bs-ride="carousel" data-bs-touch="true">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carousel-agro" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carousel-agro" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carousel-agro" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#carousel-agro" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner">
+                    
+                                  <div class="carousel-item active" data-bs-interval="9999">
+                                    <img src="imagenes/Agro-polietileno-negro.png" class="d-block w-100 product-img" alt="...">
+                                  </div>
+
+                                  <div class="carousel-item" data-bs-interval="9999">
+                                    <img src="imagenes/Agro-polisombra.png" class="d-block w-100 product-img" alt="...">
+                                  </div>
+
+                                  <div class="carousel-item" data-bs-interval="9999">
+                                    <img src="imagenes/Agro-tela-verde-pp.png" class="d-block w-100 product-img" alt="...">
+                                  </div>
+
+                                  <div class="carousel-item" data-bs-interval="9999">
+                                    <img src="imagenes/Agro-geotextil.png" class="d-block w-100 product-img" alt="...">
+                                  </div>
+                    
+                                </div>
+                                
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-agro" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-agro" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                              <!-- carousel -->
+                            </div>
+                            
+                        
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- Cards -->
+            </div>
+
+            <div class="Mision-Vision" id="MyV">
+              <div class="row align-items-start">
+  
+                  <!-- <div class="imagen-myv col-md-6 col-12">
+                      <img src="imagenes/Imagen-mision-vision.PNG" alt="">
+                  </div> -->
+                  <div class="valores col-md-4 col-12">
+                    <h1 class="valores-h1"><strong>VALORES</strong></h1>
+                    <ul class="valores-list">
+                      <li>Compromiso.</li>
+                      <li>Responsabilidad.</li>
+                      <li>Disciplina.</li>
+                      <li>Honestidad.</li>
+                      <li>Trabajo en equipo.</li>
+                      <li>Excelencia.</li>
+                      <li>Servicio.</li>
+                      <li>Aprendizaje.</li>
+                      <li>Perseverancia.</li>
+                    </ul>
+                  </div>
+  
+                  <div class="mision col-md-4 col-12">
+                      <h1 class="mision-h1"><STROng>MISIÓN</STROng></h1>
+                      <p>Nuestra misión es elevar continuamente el nivel de experiencia del cliente, brindando productos de calidad a través de la mejora continua, ofreciendo la mejor opción de proveeduría de productos de empaque y embalaje para los distintos segmentos del mercado e industrias.</p>
+                  </div>
+          
+                  <div class="vision col-md-4 col-12">
+                      <h1 class="vision-h1"><strong>VISIÓN</strong></h1>
+                      <p>Ser el proveedor más competitivo de la región en los próximos 3 años y constituirnos como la casa comercializadora líder a nivel nacional, siempre comprometidos en cubrir satisfactoriamente las necesidades de nuestros clientes de forma rápida y puntual.</p>
+                  </div>
+  
+              </div>
+          </div>
+  
+
+            
+
+
+
+
+
+
+
+        <div class="contacto" id="seccioncontacto">
+            <div class="row align-items-start">
+                <div class="col-md-12 col-12">
+                    <h1> <strong>CONTACTO</strong></h1>
+                    <p><strong>Telefono:</strong> +57 3105955471</p>
+                    <p>
+                      <strong>
+                        Redes sociales:
+                      </strong>
+                       @plasticosycintascol
+                       <a href="https://www.instagram.com/plasticosycintascol">
+                        <ion-icon class="logo-instagram-contacto" name="logo-instagram"></ion-icon>
+                      </a>
+                       <a href="https://www.facebook.com/plasticosycintascol">
+                        <ion-icon class="logo-facebook-contacto" name="logo-facebook"></ion-icon>
+                      </a>
+                    </p>
+                    <p><strong>Correo electronico:</strong> <a href="mailto:plasticosycintasdecolombia@gmail.com?subject=Consulta&body=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios.">plasticosycintasdecolombia@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+
+
+      
+
+
+        <!-- <div class="presencia" style="background-color: rgb(14, 54, 94); color: #fff;">
+            <div class="row align-items-start">
+                <div class="col-md-6 col-12">
+                    <h1>Presencia</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dignissimos molestiae perspiciatis animi asperiores saepe consequuntur voluptatibus praesentium doloremque magni iste reprehenderit consectetur maxime aliquid aperiam, aliquam cum ducimus excepturi.</p>
+                </div>
+        
+                <div class="mapa col-md-6 col-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.7742898686024!2d-74.79420050575442!3d10.986376174131959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d6fc485248f%3A0x23ae1dc88edcfdef!2sCl.%2057%20%2344-102%2C%20Nte.%20Centro%20Historico%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1724985731591!5m2!1ses!2sco" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+<!-- Cuerpo -->
+    </div>
+
+
+        <footer class="footer">
+
+          <ul class="social-icon">
+
+            <li class="icon-elem">
+              <a href="https://www.instagram.com/plasticosycintascol" class="icon">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="icon-elem">
+              <a href="https://www.facebook.com/plasticosycintascol" class="icon">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="icon-elem">
+              <a href="mailto:plasticosycintasdecolombia@gmail.com?subject=Consulta&body=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios." class="icon">
+                <ion-icon name="mail"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+
+          <ul class="menu" id="footer-list">
+              <li class="menu-elem">
+                <a href="#" data-target="seccioncatalogo" class="icon-menu">Productos</a>
+              </li>
+              <li class="menu-elem">
+                <a href="#" data-target="seccioncontacto" class="icon-menu">contacto</a>
+              </li>
+              <li class="menu-elem">
+                <a href="#" data-target="MyV" class="icon-menu">Valores</a>
+              </li>
+            </ul>
+            <p class="text">2024 | Todos los derechos reservados.</p>
+        </footer>
+
+        <a href="#inicio" class="flecha-flotante">
+          <ion-icon name="arrow-up"></ion-icon>
+      </a>
+
+
+      <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" id="lightbox-img">
+      </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
